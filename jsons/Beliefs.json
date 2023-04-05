@@ -207,6 +207,15 @@
         "type": "Follower",
         "uniques": ["[+15]% growth [in this city] <when not at war>"]
     },
+    {
+        "name": "Seclusion",
+        "type": "Follower",
+        "uniques": [
+            "[-10]% growth [in cities following this religion] <in cities with a [Temple]>",
+            "[+2 Culture] [in cities following this religion] <in cities with a [Temple]>",
+            "Gain a free [Pantheon] belief"
+        ]
+    },
 ///////////////////////////////////////// Founder beliefs - 9 - 16.07% - 16//////////////////////////////////////////
 
     {
@@ -321,15 +330,6 @@
         "uniques": [
             "All newly-trained [Melee] units [in cities following this religion] receive the [Zealous Guerilla] promotion <before the [Industrial era]>",
             "[+2 Culture] [in cities following this religion] <starting from the [Industrial era]>"
-        ]
-    },
-    {
-        "name": "Isolationism",
-        "type": "Follower",
-        "uniques": [
-            "[-10]% growth [in cities following this religion] <in cities with a [Temple]>",
-            "[+2 Culture] [in cities following this religion] <in cities with a [Temple]>",
-            "Gain a free [Pantheon] belief"
         ]
     },
     */
