@@ -286,7 +286,8 @@
         "name": "Just War",
         "type": "Enhancer",
         "uniques": [
-            "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <when at war> <before the [Industrial era]>"
+            "[-10 Happiness] [in cities following this religion] <for [20] turns> <upon declaring war with a major Civilization>", 
+            "[+5 Happiness] [in cities following this religion] <when at war>"
         ]
     },
     {
@@ -322,8 +323,39 @@
         "type": "Enhancer",
         "uniques": ["Gain a free [Pantheon] belief", "[-10]% Natural religion spread [in all cities] <starting from the [Medieval era]>"]
     },
+    {
+        "name": "Holy War",
+        "type": "Enhancer",
+        "uniques": [
+            "May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <when at war> <before the [Industrial era]>"
+        ]
+    },
     /*
     #EXPERIMENTAL/TODO LIST#
+    {
+        "name": "Judgement of God",
+        "type": "Founder",
+        "uniques": [
+            "[{Land} {Military}] units gain the [Holy Verdict] promotion",
+            "May buy [Lord's Gavel] units for [1000] [Faith] [in cities following this religion] at an increasing price ([1000]) <after discovering [Ballistics]>"
+        ]
+    },
+    {
+        "name": "Guardian Angel",
+        "type": "Founder",
+        "uniques": [
+            "[+100]% City Strength from defensive buildings",
+            "May buy [Guardian] units for [500] [Faith] [in cities following this religion] at an increasing price ([100]) <after discovering [Theology]>"
+        ]
+    }
+    {
+        "name": "Patron Saint",
+        "type": "Founder",
+        "uniques": [
+            "[+3 Culture] [in cities with a garrison]",
+            "[+1 Gold, +2 Production] from every specialist [in cities following this religion]"
+        ]
+    }
     {
         "name": "Martial Arts",
         "type": "Follower",
