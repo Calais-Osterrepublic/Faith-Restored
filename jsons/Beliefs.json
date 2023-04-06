@@ -355,7 +355,7 @@
             "[+3 Culture] [in cities with a garrison]",
             "[+1 Gold, +2 Production] from every specialist [in cities following this religion]"
         ]
-    }
+    },
     {
         "name": "Martial Arts",
         "type": "Follower",
