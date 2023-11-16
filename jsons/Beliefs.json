@@ -1,6 +1,6 @@
-[
     //TOTAL ORIGINAL - 56
     //PANTHEON - 22 - 39.28% - 39
+[
     {
         "name": "Ancestor Worship",
         "type": "Pantheon",
@@ -9,29 +9,36 @@
     {
         "name": "Dance of the Aurora",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from [Tundra] tiles without [Forest] [in this city]"]
+        "uniques": ["[+1 Culture,+1 Faith] from [Tundra] tiles without [Forest] [in this city]"]
     },
     {
         "name": "Desert Folklore",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Desert]","[+3 Faith] from every [Oasis]"]
+        "uniques": [
+            "[+1 Culture] from every [Desert]",
+            "[+3 Faith] from every [Oasis]"
+        ]
     },
     {
         "name": "Faith Healers",
         "type": "Pantheon",
         "uniques": ["All newly-trained [Melee] units [in cities following this religion] receive the [Medic] promotion"]
-        // This should be worded better
     },
     {
         "name": "Fertility Rites",
         "type": "Pantheon",
-        "uniques": ["[+10]% growth [in cities following this religion]", "[+10]% growth [in cities following this religion] <upon entering a Golden Age>"]
-        // Preferably I would not have a cityFilter here, but doing so requires no additional implementation
+        "uniques": [
+            "[+33]% growth [in cities following this religion]", 
+            "[+33]% growth [in cities following this religion] <upon entering a Golden Age>"
+        ]
     },
     {
         "name": "God of Craftsman",
         "type": "Pantheon",
-        "uniques": ["[+2 Production] <in cities with at least [6] [Population]>","[+1 Production] from each Trade Route"]
+        "uniques": [
+            "[+2 Production] <in cities with at least [6] [Population]>",
+            "[+1 Production] from each Trade Route"
+        ]
     },
     {
         "name": "God of the Open Sky",
@@ -54,9 +61,9 @@
         "name": "Goddess of Festivals",
         "type": "Pantheon",
         "uniques": [
-          "[+1 Culture, +1 Faith] from every [Wine]", 
-          "[+1 Culture, +1 Faith] from every [Incense]",
-          "[+1 Culture, +1 Faith] [in cities following this religion] <during We Love The King Day>"
+          "[+1 Culture, +1 Gold] from every [Wine]", 
+          "[+1 Culture, +1 Gold] from every [Incense]",
+          "[+1 Culture, +1 Gold] [in cities following this religion] <during We Love The King Day>"
         ]
     },
     {
@@ -94,17 +101,17 @@
     {
         "name": "One with Nature",
         "type": "Pantheon",
-        "uniques": ["[+4 Faith] from every [Natural Wonder]"]
+        "uniques": ["[+100]% Yield from every [Natural wonder]"]
     },
     {
         "name": "Oral Tradition",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Plantation]"]
+        "uniques": ["[+1 Culture, +1 Gold] from every [Plantation]"]
     },
     {
         "name": "Religious Idols",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture, +1 Faith] from every [Gold Ore]", "[+1 Culture, +1 Faith] from every [Silver]"]
+        "uniques": ["[+1 Culture, +1 Gold] from every [Gold Ore]", "[+1 Culture, +1 Faith] from every [Silver]"]
     },
     {
         "name": "Religious Settlements",
@@ -124,7 +131,24 @@
     {
         "name": "Stone Circles",
         "type": "Pantheon",
-        "uniques": ["[+2 Faith] from every [Quarry]"]
+        "uniques": ["[+2 Culture] from every [Quarry]"]
+    },
+
+
+    {
+        "name": "Miner's Dream",
+        "type": "Pantheon",
+        "uniques": ["[+2 Culture, +1 Production] from every [Mine]"]
+    },
+    {
+        "name": "Defy the Enemy",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Fort]","[+1 Culture] from every [Citadel]"]
+    },
+    {
+        "name": "Logger's Landing",
+        "type": "Pantheon",
+        "uniques": ["[+1 Gold] from every [Lumber Mill]"]
     },
 ///////////////////////////////////////// Follower beliefs - 16 - 28.57% - 29/////////////////////////////////////////    
     {
