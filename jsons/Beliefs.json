@@ -48,7 +48,9 @@
     {
         "name": "God of the Sea",
         "type": "Pantheon",
-        "uniques": ["[+1 Production] from every [Fishing Boats]","[+20]% Production when constructing [Water] units [in cities following this religion]"]
+        "uniques": [
+            "[+1 Production] from every [Fishing Boats]",
+            "[+20]% Production when constructing [Water] units [in cities following this religion]"]
     },
     {
         "name": "God of War",
@@ -89,14 +91,10 @@
     {
         "name": "Monument to the Gods",
         "type": "Pantheon",
-        "uniques": ["[+15]% Production when constructing [All] wonders [in cities following this religion] <before the [Medieval era]>"]
-        // ToDo: Should only be ancient/classical era wonders, but implementing that is another can of worms
-        // For that we really should need an era.matchesFilter(), so we could write something like:
-        //"uniques": ["[+15]% Production when constructing [Ancient era] wonders [in cities following this religion]",
-        // "[+15]% Production when constructing [Classical era] wonders [in cities following this religion]"]
-        // For now this feels like overkill, but I'll leave this here for the future
-
-        // Alternatively, we could approximate this with "[+15]% Production when constructing [All] wonders [in all cities] <during the [Ancient era]>"
+        "uniques": [
+            "[+15]% Production when constructing [All] wonders [in cities following this religion] <before the [Medieval era]>",
+            "[+1 Culture, +1 Faith] from every [Monument]"
+        ]
     },
     {
         "name": "One with Nature",
@@ -126,7 +124,7 @@
     {
         "name": "Sacred Waters",
         "type": "Pantheon",
-        "uniques": ["[+1 Happiness] in cities on [River] tiles"]
+        "uniques": ["[+1 Happiness, +1 Faith] in cities on [River] tiles"]
     },
     {
         "name": "Stone Circles",
@@ -148,7 +146,12 @@
     {
         "name": "Logger's Landing",
         "type": "Pantheon",
-        "uniques": ["[+1 Gold] from every [Lumber Mill]"]
+        "uniques": ["[+2 Gold] from every [Lumber Mill]"]
+    },
+    {
+        "name": "Foreseers",
+        "type": "Pantheon",
+        "uniques": ["All newly-trained [Scout] units [in cities following this religion] receive the [Sentry] promotion"]
     },
 ///////////////////////////////////////// Follower beliefs - 16 - 28.57% - 29/////////////////////////////////////////    
     {
